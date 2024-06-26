@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'US Angel';
+    src: url('usangel.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Old English Five';
+    src: url('old-english-five.regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ARB 85 Poster Script';
+    src: url('ARB 85 Poster Script JAN-39 FRE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cloister Black';
+    src: url('CloisterBlack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Marvel-Regular';
+    src: url('Marvel-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Power Rangers';
+    src: url('Power Rangers.ttf') format('truetype');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+p {
+    margin-top: 20vh;
+    font-size: 15vh;
+    /* opacity: 0.9; */
+    font-weight: bolder;
+    margin-right: 5vh;
+    text-shadow: 0 0 5px rgba(245, 245, 245, 0.8), 
+                 0 0 10px rgba(245, 245, 245, 0.8), 
+                 0 0 15px rgba(245, 245, 245, 0.8); /* reduced smokey white shadow */
+}
+
+.para:last-child {
+    margin-right: 0; /* Remove margin for the last paragraph */
+}
